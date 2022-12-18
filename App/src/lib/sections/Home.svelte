@@ -30,7 +30,7 @@
   <div class="flex flex-col ">
     <div class="flex justify-center">
       <div
-        class="h-[44em] w-[87em]  flex justify-center select-none overflow-hidden "
+        class="h-[44em] md:h-[75em] w-[87em]  flex justify-center select-none overflow-hidden "
       >
         <img
           class="w-full object-cover hover:scale-125 ease-out duration-300"
@@ -40,21 +40,23 @@
       </div>
     </div>
     <!-- bottom -->
-    <div class="flex items-end -mt-[2.28em]">
-      <div class=" w-1/3">
+    <div class="flex items-end -mt-[2.28em] xsm:flex-wrap xsm:gap-10">
+      <div class=" w-1/3 xsm:hidden">
         <img src={arrowDown} alt="pixeline-logo" class="w-[20px] " />
       </div>
-      <div class="flex flex-col items-center text-center">
-        <h1 class="text-[5.7em] leading-[1em] font-Monument text-herbes z-10">
+      <div class="flex flex-col items-center xsm:items-start text-center">
+        <h1
+          class="text-[5.7em] sm:text-[4.5em] leading-[1em] font-Monument text-herbes z-10 xsm:text-left xxs:text-[8vw]"
+        >
           branding & photography
         </h1>
-        <p class="w-[43.6em]">
+        <p class="w-[43.6em] xsm:text-left xxs:w-3/4">
           specialize in creating stunning visuals that capture your unique style
           and brand personality, helping you to stand out in a crowded
           marketplace.
         </p>
       </div>
-      <div class="w-1/3 text-right">
+      <div class="w-1/3 text-right xsm:text-left">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-missing-attribute -->
         <a on:click={HandleFeaturedScroll}>

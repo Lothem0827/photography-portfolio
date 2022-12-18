@@ -20,7 +20,7 @@
   <div class=" w-1/3">
     <img src={logo} alt="pixeline-logo" class="w-[3.6em]" />
   </div>
-  <div class="w-1/3 text-center">
+  <div class="w-1/3 text-center xxs:hidden">
     <p>available for freelance work</p>
   </div>
   <div class="w-1/3 text-right">

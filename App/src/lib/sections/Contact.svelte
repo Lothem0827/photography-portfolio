@@ -6,14 +6,6 @@
   import { gsap } from "gsap";
   import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
-  //gsap.registerPlugin(ScrollToPlugin);
-  //   const scroll = () => {
-  //     gsap.to(window, {
-  //       duration: 1,
-  //       scrollTo: { y: "#section" + (index + 1), offsetY: 70 },
-  //     });
-  //   };
-
   const HandleScrollTop = () => {
     gsap.registerPlugin(ScrollToPlugin);
     gsap.to(window, {
@@ -34,11 +26,15 @@
 >
   <!-- <Header /> -->
   <div class="flex items-start">
-    <div class="flex  items-end">
-      <h1 class="font-Monument text-[5.7em] leading-[1em] text-cedar w-2/3">
+    <div
+      class="flex  items-end sm:justify-between xsm:flex-col xsm:items-start"
+    >
+      <h1
+        class="font-Monument leading-[1em] text-cedar w-2/3 lg:w-4/5 text-[5.7em] lg:text-[4.6em] sm:text-[4.5em] sm:w-3/4 xxs:text-[8vw]"
+      >
         we can accomplish amazing things together
       </h1>
-      <p class=" w-1/5">
+      <p class=" w-1/5 sm:text-right xsm:text-start xsm:w-1/2 ">
         thank you for looking our collection and portfolio. i am excited at the
         possibility of working with you.
       </p>
@@ -53,30 +49,33 @@
     />
   </div>
 
-  <div class="flex justify-between">
+  <div class="flex justify-between ">
     <div class="w-2/3 " />
-    <div class="w-1/3">
+    <div class="w-1/3 xsm:order-first">
       <img class="object-cover  w-[17em] h-[17em] " src={image} alt="hero" />
-      >
     </div>
   </div>
 
-  <div class="flex justify-between items-end ">
-    <div class="flex flex-col gap-2">
+  <div
+    class="flex justify-between items-end xxs:flex-col xxs:items-start xxs:gap-4"
+  >
+    <div class="flex flex-col gap-2 lg:w-1/2 md:w-3/4  xxs:w-full">
       <div class="flex justify-between ">
-        <p>email address</p>
+        <p class="lg:hidden">email address</p>
         <p>pixeline.freelance@gmail.com</p>
       </div>
-      <h1 class="font-Monument text-[5.7em] leading-[1em] text-cedar ">
+      <h1
+        class="font-Monument text-[5.7em] lg:text-[4.6em]  leading-[1em] text-cedar xxs:text-[8vw]"
+      >
         contact us
       </h1>
     </div>
     <div class="flex items-end justify-between">
-      <p class=" w-1/3">
+      <p class=" w-1/3 lg:hidden xxs:w-full">
         follow us and stay up to date on our latest news and updates
       </p>
       <div
-        class="text-[3em] leading-[1em] font-Monument text-right flex flex-col gap-1"
+        class="md:text-[2em] text-[3em] leading-[1em] font-Monument text-right flex flex-col gap-1 xxs:text-left "
       >
         <h1>behance</h1>
         <h1>instagram</h1>

@@ -12,21 +12,27 @@
 >
   <!-- <Header /> -->
 
-  <div class="flex justify-between items-end">
-    <h1 class="font-Monument text-[9em] leading-[1em] text-herbes">
+  <div class="flex justify-between items-end flex-wrap md:justify-end">
+    <h1
+      class="xxs:text-[8vw] font-Monument text-[9em] lg:text-[6.8em] md:text-[5em] sm:text-[4.5em] leading-[1em] text-herbes xsm:text-[4em] "
+    >
       contemporary designer
     </h1>
-    <p class="text-right w-1/4">
+    <p class="text-right w-1/4 lg:w-1/2 md:w-2/5">
       contemporary designs that are tailored to the needs of modern businesses
     </p>
   </div>
   <div>
-    <h1 class="font-Monument text-[9em] leading-[1em] text-tan text-right">
+    <h1
+      class="xxs:text-[8vw] font-Monument text-[9em] lg:text-[6.8em] sm:text-[4.5em] xsm:text-[4em] leading-[1em] text-tan text-right"
+    >
       for modern business
     </h1>
   </div>
   <div class="flex justify-between items-end ">
-    <div class="flex justify-between items-end gap-[10em]">
+    <div
+      class="flex justify-between items-end gap-[10em] xxs:flex-col xxs:items-start"
+    >
       <div>
         <img
           class="object-cover  w-[17em] h-[17em] mb-4"

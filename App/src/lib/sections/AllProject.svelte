@@ -17,9 +17,7 @@
   <!-- px-[1.6em] pt-[1em] pb-[2em] -->
   <div class="flex flex-col">
     <div class="bg-dark px-[1.6em] pt-[1em] pb-[1em]">
-      <h1
-        class="font-Monument text-[5em] leading-[1em] text-herbes sm:text-[4.5em] xxs:text-[8vw]"
-      >
+      <h1 class="font-Monument text-[5em] leading-[1em] text-herbes">
         featured project
       </h1>
     </div>
@@ -48,32 +46,26 @@
   </div>
 
   <div class="flex justify-between 	px-[1.6em]">
-    <div class="flex justify-between  w-3/5 ">
-      <p class="lg:w-2/3 md:w-full w-1/2 font-semibold	">
+    <div class="flex justify-between  gap-[10em] w-1/2 ">
+      <p class="w-1/2 font-semibold	">
         Faces of Fashion is an annual event that brings together the brightest
         names in the fashion industry. From designers and models to stylists and
         industry insiders
       </p>
-      <div class="flex justify-between w-1/3 lg:w-1/4 md:hidden">
+      <div class="flex justify-between w-1/3 ">
         <div class=" font-semibold	">role</div>
-        <div class=" text-right w-1/3 lg:w-full font-semibold	">
+        <div class=" text-right w-1/3 font-semibold	">
           photography branding art direction
         </div>
       </div>
     </div>
-    <h1
-      class="text-[3em]  leading-[1em] font-Monument lg:w-1/3 w-1/4 md:w-1/2 text-right xxs:text-[8vw]"
-    >
+    <h1 class="text-[3em] leading-[1em] font-Monument w-1/4 text-right">
       view full case study
     </h1>
   </div>
 
-  <div
-    class="flex justify-between items-end px-[1.6em] pb-[1.6em] xsm:flex-col xsm:items-start xsm:gap-10"
-  >
-    <h1
-      class="text-[5.7em] lg:text-[4.6em]  leading-[1em] font-Monument text-herbes  lg:w-3/4 w-3/5 sm:text-[4.5em] xxs:text-[8vw]"
-    >
+  <div class="flex justify-between items-end px-[1.6em] pb-[1.6em]">
+    <h1 class="text-[5.7em] leading-[1em] font-Monument text-herbes  w-3/5">
       faces of fashion 2022 collection
     </h1>
 
